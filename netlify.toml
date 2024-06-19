@@ -2,7 +2,7 @@
   directory = "netlify/ui/login/"
 
 [[redirects]]
-  from = "/"
+  from = "/ui"
   to = "/.netlify/functions/comment"
   status = 200
   force = true
