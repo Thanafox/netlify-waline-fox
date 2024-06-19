@@ -1,2 +1,8 @@
 [functions]
   directory = "netlify/ui/login/"
+
+[[redirects]]
+  from = "/.netlify/functions/comment"
+  to = "/ui"
+  status = 200
+  force = true
